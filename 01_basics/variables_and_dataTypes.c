@@ -7,6 +7,7 @@ int main() {
     char character = 'A';
     char *characters1 = "ABC!@#123";
     char characters2[] = "ABC!@!123";
+    _Bool boolean = 0;
 
     printf("Integer %d\n", num);
     printf("Floating values %.1f\n", floatingPoint);
@@ -18,7 +19,7 @@ int main() {
     printf("Characters of an Array %s\n", characters2);
     printf("yet to have to study the difference between the array of characters and string.\n");
     printf("However, remember there is no built in string, boolean (before C99), undefined, null, NoneType.\n");
-
+    printf("Boolean value %d\n", boolean);
 
     return 0;
 }
