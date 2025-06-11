@@ -42,3 +42,4 @@ cmake_install.cmake
 # Package managers
 .vcpkg/
 
+.clang-format
